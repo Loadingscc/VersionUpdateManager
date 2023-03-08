@@ -30,7 +30,7 @@ page{
 
 .cx-logout:hover{
 	margin-right: 100rpx;
-	color: springgreen;
+	color: rgb(45, 92, 246);
 	cursor: pointer;
 }
 

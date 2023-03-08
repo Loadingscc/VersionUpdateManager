@@ -15,7 +15,8 @@
 						<input class="cx-input-id" @input="onKeyInput" placeholder="账号" />
 						<input class="cx-input-id" @input="onKeyInput" password="true" placeholder="密码" />
 						<button class="cx-login-btn" @click="to_app_list">登陆</button>
-						<view class="cx-question">遇到问题?没有账号?</view>
+						<!-- <view >遇到问题?没有账号?</view>-->
+						<view class="cx-question" @tap="showModal">遇到问题?没有账号?</view>
 					</view>
 				</view>
 			</view>
@@ -38,6 +39,13 @@
 				uni.redirectTo({
 					url:"/pages/app_list/app_list"
 				})
+			},
+			showModal: function(){
+				uni.showModal({
+					title: "抱歉",
+					content: "很抱歉，目前该管家为内部使用不提供账号注册功能",
+					showCancel:false,
+				});
 			}
 		}
 	}
