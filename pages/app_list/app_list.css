@@ -1,0 +1,87 @@
+page{
+	background-color: rgb(242, 243, 245);
+}
+
+.cx-top{
+	background-color: #fff;
+	width: 100%;
+	height: 100rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cx-logo{
+	width: 80rpx;
+	height: 80rpx;
+	margin-left: 80rpx;
+}
+
+.cx-title{
+	margin-left: 25rpx;
+	font-size: 40rpx;
+	font-weight: 400;
+}
+
+.cx-logout{
+	margin-right: 100rpx;
+	transition: 0.5s;
+}
+
+.cx-logout:hover{
+	margin-right: 100rpx;
+	color: springgreen;
+	cursor: pointer;
+}
+
+.cx-border{
+	margin-top: 40rpx;
+	width: 2000rpx;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cx-btn{
+	width: 200rpx;
+	height: 60rpx;
+	font-size: 30rpx;
+	border-radius: 0rpx;
+	background-color: rgb(45, 92, 246);
+	color: #fff;
+	margin-top: 20rpx;
+	margin-left: 20rpx;
+	margin-bottom: 20rpx;
+	transition: 1s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cx-btn:hover{
+	width: 300rpx;
+	height: 70rpx;
+	font-size: 30rpx;
+	border-radius: 0rpx;
+	background-color: rgb(34, 72, 195);
+	color: #fff;
+	margin-top: 20rpx;
+	margin-bottom: 20rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cx-input{
+	width: 500rpx;
+	height: 80rpx;
+	background-color: #f5f5f5;
+	padding-left: 50rpx;
+	padding-right: 50rpx;
+	margin-right: 40rpx;
+}
+
+.cx-app-board{
+	
+}

@@ -14,7 +14,7 @@
 					<view class="cx-input">
 						<input class="cx-input-id" @input="onKeyInput" placeholder="账号" />
 						<input class="cx-input-id" @input="onKeyInput" password="true" placeholder="密码" />
-						<button class="cx-login-btn">登陆</button>
+						<button class="cx-login-btn" @click="to_app_list">登陆</button>
 						<view class="cx-question">遇到问题?没有账号?</view>
 					</view>
 				</view>
@@ -34,7 +34,11 @@
 
 		},
 		methods: {
-
+			to_app_list: function(){
+				uni.redirectTo({
+					url:"/pages/app_list/app_list"
+				})
+			}
 		}
 	}
 </script>

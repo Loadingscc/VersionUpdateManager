@@ -5,6 +5,12 @@
 			"style": {
 				"navigationBarTitleText": "AppUpdateStore版本管家"
 			}
+		},
+		{
+			"path": "pages/app_list/app_list",
+			"style": {
+				"navigationBarTitleText": "AppUpdateStore版本管家"
+			}
 		}
 	],
 	"globalStyle": {
