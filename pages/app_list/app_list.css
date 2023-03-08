@@ -36,11 +36,9 @@ page{
 
 .cx-border{
 	margin-top: 40rpx;
+	margin-bottom: 40rpx;
 	width: 2000rpx;
 	background-color: #fff;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
 }
 
 .cx-btn{
@@ -82,6 +80,52 @@ page{
 	margin-right: 40rpx;
 }
 
+.cx-line{
+	background-color: rgb(229, 230, 235);
+	width: 1960rpx;
+	height: 1rpx;
+	margin: 20rpx;
+}
+
 .cx-app-board{
-	
+	width: 1960rpx;
+	border: 1rpx solid rgb(229, 230, 235);
+	margin: 20rpx;
+}
+
+.cx-app-logo{
+	width: 80rpx;
+	height: 80rpx;
+}
+
+.cx-app-title{
+	font-size: 35rpx;
+	margin-left: 20rpx;
+}
+
+.cx-top-version{
+	width: 100rpx;
+	height: 50rpx;
+	background-color: rgb(236, 254, 236);
+	border: 1rpx solid rgb(80, 177, 66);
+	color: rgb(80, 177, 66);
+	border-radius: 20rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 30rpx;
+}
+
+.cx-icon{
+	width: 50rpx; 
+	height: 50rpx; 
+	margin-right: 40rpx;
+	cursor: pointer;
+}
+
+.cx-app-font{
+	color: #bfbfbf;
+	font-size: 30rpx;
+	margin-left: 30rpx;
+	margin-bottom: 20rpx;
 }
