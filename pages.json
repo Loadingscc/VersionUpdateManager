@@ -9,7 +9,7 @@
 		{
 			"path": "pages/app_list/app_list",
 			"style": {
-				"navigationBarTitleText": "AppUpdateStore版本管家"
+				"navigationBarTitleText": "我的应用 AppUpdateStore版本管家"
 			}
 		}
 	],
