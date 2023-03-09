@@ -147,3 +147,42 @@ page{
 	margin-left: 30rpx;
 	margin-bottom: 20rpx;
 }
+
+.cx-popup {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.7);
+	z-index: 98;
+}
+
+.ydt-popup-info{
+	position: fixed;
+	width: 1400rpx;
+	height: 1600rpx;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	margin-top: 150rpx;
+	font-size: 30rpx;
+	-moz-background-size:100% 100%;
+	background-size:100% 100%;
+	background-color: #fff;
+	border-radius: 20rpx;
+	z-index: 99;
+}
+
+.tip-line{
+	background-color: rgb(229, 230, 235);
+	width: 1400rpx;
+	height: 1rpx;
+	margin-top: 20rpx;
+}
+
+.tip-info-board{
+	margin-left: 50rpx;
+	margin-right: 50rpx;
+	margin-top: 60rpx;
+}

@@ -45,7 +45,7 @@
 									<view slot="content" style="width: 100rpx; display: flex; justify-content: center;">
 										编辑应用
 									</view>
-									<image src="../../static/set.png" class="cx-icon"></image>
+									<image src="../../static/set.png" class="cx-icon" @click="tapPopup"></image>
 								</uni-tooltip>
 								<view style="margin-right: 40rpx;"></view>
 							</view>
@@ -56,13 +56,25 @@
 						<view class="cx-app-font">2023-03-06T03:31:11.013504</view>
 					</view>
 					<view class="cx-line"></view>
+				</view>	
+			</view>	
+		</view>
+		
+		<view class="cx-popup" v-show="show">
+			<view class="ydt-popup-info">
+				<view style="display: flex; justify-content: center; align-items: center;">
+					<view>
+						<view style="font-size: 40rpx; font-weight: 400; margin-top: 20rpx;">编辑应用</view>
+					</view>
 				</view>
-				
-				
+				<view class="tip-line"></view>
+				<view class="tip-info-board">
+					<view style="font-size: 35rpx; font-weight: 500; margin-top: 20rpx;">基本信息</view>
+					<view class="tip-line" style="width: 1300rpx;"></view>
+				</view>
 				
 			</view>
 		</view>
-		
 		
 	</view>
 </template>
@@ -75,6 +87,7 @@
 		},
 		data() {
 			return {
+				show: false
 			}
 		},
 		onLoad() {
@@ -86,7 +99,12 @@
 					url: "/pages/index/index"
 				})
 			},
-			
+			tapPopup(){
+				this.show = true;
+			},
+			closeTap(){
+				this.show = false;
+			}
 		}
 	}
 </script>
