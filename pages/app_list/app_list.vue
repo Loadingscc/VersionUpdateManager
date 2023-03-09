@@ -12,7 +12,7 @@
 			<view class="cx-border">
 				<view style="display: flex;justify-content: space-between;align-items: center;">
 					<button class="cx-btn">新增应用</button>
-					<view class="cu-bar search bg-white">
+					<view class="cu-bar search bg-white" style="margin-top: 20rpx;">
 						<view class="search-form round">
 							<text class="cuIcon-search"></text>
 							<input @focus="InputFocus" @blur="InputBlur" :adjust-position="false" type="text" placeholder="请输入应用名称" confirm-type="search"></input>
@@ -34,8 +34,20 @@
 								<view class="cx-top-version">1.0.1</view>
 							</view>
 							<view style="display: flex; align-items: center; margin: 20rpx;">
-								<image src="../../static/list.png" class="cx-icon"></image>
-								<image src="../../static/set.png" class="cx-icon"></image>
+								<uni-tooltip>
+									<view slot="content" style="width: 100rpx; display: flex; justify-content: center;">
+										版本列表
+									</view>
+									<image src="../../static/list.png" class="cx-icon"></image>
+								</uni-tooltip>
+								<view style="margin-right: 40rpx;"></view>
+								<uni-tooltip>
+									<view slot="content" style="width: 100rpx; display: flex; justify-content: center;">
+										编辑应用
+									</view>
+									<image src="../../static/set.png" class="cx-icon"></image>
+								</uni-tooltip>
+								<view style="margin-right: 40rpx;"></view>
 							</view>
 						</view>
 						<view class="cx-line" style="margin-left: 0rpx; margin-top: 10rpx;"></view>
@@ -43,6 +55,7 @@
 						<view class="cx-app-font">暂无描述</view>
 						<view class="cx-app-font">2023-03-06T03:31:11.013504</view>
 					</view>
+					<view class="cx-line"></view>
 				</view>
 				
 				
@@ -55,7 +68,11 @@
 </template>
 
 <script>
+	import uniTooltip from '@/uni_modules/uni-tooltip/components/uni-tooltip/uni-tooltip.vue'
 	export default {
+		components:{
+			uniTooltip
+		},
 		data() {
 			return {
 			}
