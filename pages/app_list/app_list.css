@@ -161,7 +161,7 @@ page{
 .ydt-popup-info{
 	position: fixed;
 	width: 1400rpx;
-	height: 1600rpx;
+	height: 1300rpx;
 	left: 0;
 	right: 0;
 	margin: 0 auto;
@@ -185,4 +185,24 @@ page{
 	margin-left: 50rpx;
 	margin-right: 50rpx;
 	margin-top: 60rpx;
+}
+
+.cx-info-input{
+	background-color: rgb(242, 243, 245);
+	width: 1000rpx;
+	height: 80rpx;
+	padding: 20rpx;
+}
+
+.cx-btn-pop{
+	width: 200rpx;
+	height: 60rpx;
+	font-size: 30rpx;
+	border-radius: 0rpx;
+	background-color: rgb(45, 92, 246);
+	color: #fff;
+	transition: 1s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }

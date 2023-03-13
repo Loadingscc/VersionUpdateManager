@@ -71,6 +71,41 @@
 				<view class="tip-info-board">
 					<view style="font-size: 35rpx; font-weight: 500; margin-top: 20rpx;">基本信息</view>
 					<view class="tip-line" style="width: 1300rpx;"></view>
+					<view style="display: flex; justify-content: right; margin: 40rpx; align-items: center;">
+						<view style="margin-right: 50rpx; font-size: 35rpx; font-weight: 400;">logo</view>
+						<input class="cx-info-input" placeholder="请输入logo的https存储地址"/>
+					</view>
+					<view style="display: flex; justify-content: right; margin: 40rpx; align-items: center;">
+						<view style="margin-right: 50rpx; font-size: 35rpx; font-weight: 400;">应用名</view>
+						<input class="cx-info-input" placeholder="请输入应用名"/>
+					</view>
+					<view style="display: flex; justify-content: right; margin: 40rpx; align-items: center;">
+						<view style="margin-right: 50rpx; font-size: 35rpx; font-weight: 400;">appleID</view>
+						<input class="cx-info-input" placeholder="ios跳转到商店更新可用,不懂ios可以不填写"/>
+					</view>
+				</view>
+				
+				<view class="tip-info-board">
+					<view style="font-size: 35rpx; font-weight: 500; margin-top: 20rpx;">详细信息</view>
+					<view class="tip-line" style="width: 1300rpx;"></view>
+					<view style="display: flex; justify-content: right; margin: 40rpx; align-items: center;">
+						<view style="margin-right: 50rpx; font-size: 35rpx; font-weight: 400;">应用slogan</view>
+						<input class="cx-info-input" placeholder="请用一句话描述你的应用"/>
+					</view>
+					<view style="display: flex; justify-content: right; margin: 40rpx; align-items: center;">
+						<view style="margin-right: 50rpx; font-size: 35rpx; font-weight: 400;">应用描述</view>
+						<input class="cx-info-input" placeholder="请输入应用详细信息"/>
+					</view>
+					<view style="display: flex; justify-content: right; margin: 40rpx; align-items: center;">
+						<view style="margin-right: 50rpx; font-size: 35rpx; font-weight: 400;">预览截图</view>
+						<input class="cx-info-input" placeholder="请输入截图的https地址,以;作为区分"/>
+					</view>
+				</view>
+				
+				<view class="tip-line" style="margin-top: 100rpx;"></view>
+				<view style="display: flex; justify-content: right; align-items: center;flex-direction: row;">
+					<button class="cx-btn-pop" style="margin-top: 25rpx;">确定</button>
+					<button class="cx-btn-pop" style="margin-top: 25rpx; background-color: rgb(242, 243, 245); color: rgb(141, 151, 161); border-radius: 0rpx;">取消</button>
 				</view>
 				
 			</view>
