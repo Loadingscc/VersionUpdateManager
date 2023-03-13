@@ -104,8 +104,8 @@
 				
 				<view class="tip-line" style="margin-top: 100rpx;"></view>
 				<view style="display: flex; justify-content: right; align-items: center;flex-direction: row;">
-					<button class="cx-btn-pop" style="margin-top: 25rpx;">确定</button>
-					<button class="cx-btn-pop" style="margin-top: 25rpx; background-color: rgb(242, 243, 245); color: rgb(141, 151, 161); border-radius: 0rpx;">取消</button>
+					<button class="cx-btn-pop" style="margin-top: 25rpx;" @click="closeTap">确定</button>
+					<button class="cx-btn-pop" style="margin-top: 25rpx; background-color: rgb(242, 243, 245); color: rgb(141, 151, 161); border-radius: 0rpx;" @click="closeTap">取消</button>
 				</view>
 				
 			</view>
